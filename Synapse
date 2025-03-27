@@ -3512,9 +3512,8 @@ task.spawn(C_93);
 return G2L["1"], require;
 end,
 })
-local Section = Tab:CreateSection("Section Example",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "synapse x September",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = 'Changable',
    Callback = function()
@@ -3894,5 +3893,5 @@ end
    end
 end)
    end,
-}) 
+})
  
