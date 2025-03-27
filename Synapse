@@ -3107,15 +3107,15 @@ local function C_49()
 	end)
 	buttons.Attach.MouseButton1Up:Connect(function()
 		if not injected then
-			title.Text = "Synapse X - "..synversion.." (checking...)"
+			title.Text = "Synapse X - "..synversion.." (OwO checking...)"
 			task.wait(0.8)
-			title.Text = "Synapse X - "..synversion.." (injecting...)"
+			title.Text = "Synapse X - "..synversion.." (uwu injecting...)"
 			task.wait(2.3)
-			title.Text = "Synapse X - "..synversion.." (checking whitelist...)"
+			title.Text = "Synapse X - "..synversion.." (daddy checking whitelist...)"
 			task.wait(1.6)
-			title.Text = "Synapse X - "..synversion.." (scanning...)"
+			title.Text = "Synapse X - "..synversion.." (UWU scanning...)"
 			task.wait(1.3)
-			title.Text = "Synapse X - "..synversion.." (ready!)"
+			title.Text = "Synapse X - "..synversion.." (TWT ready!)"
 			injected = true
 			task.wait(1)
 			title.Text = "Synapse X - "..synversion
@@ -3257,7 +3257,7 @@ local function C_83()
 	local stuff  =script.Parent
 
 	stuff.Buttons.Discord.MouseButton1Up:Connect(function()
-		setclipboard("XYFXYNmG4D")
+		setclipboard("https://discord.gg/FWtSQJr7")
 	end)
 	stuff.Buttons.Rejoin.MouseButton1Up:Connect(function()
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
