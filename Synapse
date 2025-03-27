@@ -32,9 +32,13 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local Tab = Window:CreateTab("Tab1", 4483362458) -- Title, Image
-local Button = Tab1:CreateButton({
+local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
+local Tab2 = Window:CreateTab("Tab Example 2") -- Title, Image
+local Section = Tab:CreateSection("Section Example",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
+local Button = Tab:CreateButton({
    Name = "Button Example",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = 'Changable',
    Callback = function()
 local synversion = "2.23.11"
 
