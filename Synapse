@@ -36,7 +36,7 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Tab2 = Window:CreateTab("Tab Example 2") -- Title, Image
 local Section = Tab:CreateSection("Section Example",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "synapse x",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = 'Changable',
    Callback = function()
@@ -3889,7 +3889,7 @@ end
    end
 
    if searching then
-       Status("Failed to find ".. Username ..", maybe in a vip server", 3)
+       Status("Failed to find ".. Username ..", maybe in a private server", 3)
    end
 end)
    end,
