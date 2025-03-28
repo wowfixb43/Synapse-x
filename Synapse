@@ -6263,7 +6263,8 @@ if table.find({
 end
  end,
 })
-local Button = Tab2:CreateButton({
+
+local Button = Tab:CreateButton({
    Name = "synapse x esp",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = 'Changable',
@@ -6687,4 +6688,4 @@ if not _G.WRDESPLoaded then
     _G.WRDESPLoaded = true
 end
  end,
-  })
+})
